@@ -33,7 +33,7 @@ app.get('/help',(req,res)=>{
     res.render('help', {
         title: 'Help!',
         name: 'Kabir K',
-        message: 'If you, like me, are being chased by wolves, call 911'
+        message: 'This is a pretty simple app, just navigate to weather and enter your location.'
     })
 })
 
